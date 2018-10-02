@@ -85,39 +85,39 @@ a {
   color: #5A5454;
   padding-bottom: 30px;
 }
-#work {
+.work , #projects{
   width: 100%;
   display: inline-block;
   padding-top: 65px;
 }
-#work p {
+.work p {
   width: 50%;
 }
 @media (max-width: 991px) {
-  #work p {
+  .work p {
     width: 100%;
   }
 }
-#work h4 {
+.work h4 {
   font-weight: normal;
   color: grey;
   text-align: center;
 }
-#work .cbox {
+.work .cbox {
   width: 50%;
   float: left;
   display: inline-block;
   position: relative;
 }
 @media (max-width: 830px) {
-  #work .cbox {
+  .work .cbox {
     width: 100%;
   }
 }
-#work .cbox img {
+.work .cbox img {
   width: 100%;
 }
-#work .cbox .overlay {
+.work .cbox .overlay {
   opacity: 0;
   position: absolute;
   top: 0px;
@@ -134,7 +134,7 @@ a {
   bottom: 0;
   transition: 0.3s ease-in opacity;
 }
-#work .cbox .overlay > span {
+.work .cbox .overlay > span {
   position: absolute;
   margin: auto;
   top: 0;
@@ -143,14 +143,14 @@ a {
   left: 0;
   height: 100px;
 }
-#work .cbox .overlay > span span.link {
+.work .cbox .overlay > span span.link {
   font-family: 'Roboto';
   font-weight: 300;
   font-size: 16px;
   display: block;
   margin-top: 36px;
 }
-#work .cbox:hover .overlay {
+.work .cbox:hover .overlay {
   opacity: 1;
 }
 h2 {
