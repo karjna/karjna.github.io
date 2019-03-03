@@ -177,6 +177,7 @@ h2 {
 }
 #about img {
   width: 45%;
+  border-radius: 50%;
 }
 @media (max-width: 820px) {
   #about img {
